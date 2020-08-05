@@ -3,10 +3,11 @@ An abstraction layer for sending SMS (and other) messages. Including some implem
 
 ## Currently supported platforms:
 - SMS via Twilio
-- Email via Gmail
+- E-mail via Gmail
 
 ## Future plans
-- Return a result from the SendMessage method
+- Return a status from the SendMessage method (Success, Error, etc.)
+- Add async versions of the SendMessage method
 - Implement more messaging platforms (Facebook, Viber, WhatsApp, ...)
 
 ## Tutorial
@@ -94,4 +95,4 @@ IEzGateway mailGateway = GmailGateway.Create(new GmailSettings(new MailAddress(G
 mailGateway.SendMessage("PUT_A_VALID_EMAIL_ADDRESS_HERE", message, title); //replace the placeholder with a valid email address
 ```
 
-You can now run the code. You should be receiving and SMS and an Email message after the program finishes.
+You can now run the code. You should be receiving an SMS and an e-mail message after the SampleRunner finishes.
