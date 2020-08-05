@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EzGateway\EzGateway.csproj" />
+    <PackageReference Include="EzGateway" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
