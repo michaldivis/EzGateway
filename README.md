@@ -1,6 +1,12 @@
 # EzGateway
 An abstraction layer for sending SMS (and other) messages. Including some implementations.
 
+## NuGet
+
+[![NuGet Status](https://img.shields.io/badge/EzGateway-v1.0.0-blue)](https://www.nuget.org/packages/EzGateway/)
+
+Install NuGet package. `PM> Install-Package EzGateway`
+
 ## Currently supported platforms:
 - SMS via Twilio
 - E-mail via Gmail
