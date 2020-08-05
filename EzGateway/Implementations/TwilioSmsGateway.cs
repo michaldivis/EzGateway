@@ -36,7 +36,7 @@ namespace EzGateway.Implementations
 
         public void SendMessage(string recipient, string messageText, string messageTitle)
         {
-            ValidateAndSendSmsMessage(recipient, messageText);
+            ValidateAndSendSmsMessage(recipient, $"{messageTitle} - {messageText}");
         }
 
         private void ValidateAndSendSmsMessage(string recipient, string messageText)
