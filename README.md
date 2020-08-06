@@ -3,7 +3,7 @@ An abstraction layer for sending SMS (and other) messages. Including some implem
 
 ## NuGet
 
-[![NuGet Status](https://img.shields.io/badge/EzGateway-v1.0.0-blue)](https://www.nuget.org/packages/EzGateway/)
+[![NuGet Status](https://img.shields.io/nuget/v/EzGateway.svg?style=flat&label=EzGateway)](https://www.nuget.org/packages/EzGateway/)
 
 Install NuGet package. `PM> Install-Package EzGateway`
 
